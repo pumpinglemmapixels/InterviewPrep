@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Entity1\" />
+    <Folder Include="Entity2\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Prep.Arguments\Prep.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
